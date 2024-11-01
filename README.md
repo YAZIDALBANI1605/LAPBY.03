@@ -223,7 +223,6 @@ jika tidak memilih selain 1 atau 2, akan mencetak "Pilihan tidak valid!", dan fu
 
 hasil program tersebut
 
-![Screenshot 2024-11-01 221105](https://github.com/user-attachments/assets/94843833-c2fa-4ff4-b6ef-46707c1d5445)
-
+![Screenshot 2024-11-01 221105](https://github.com/user-attachments/assets/12783dcc-55e1-4c06-b3e5-65be37e5955a)
 
 
