@@ -87,6 +87,7 @@ print(f"Total laba adalah: {total_laba}")
 
 ````
 hasil program tersebut
+
 ![Screenshot 2024-11-01 214812](https://github.com/user-attachments/assets/74593595-8bd7-4b7b-aa54-cb07e0029068)
 
 ## hitung total selama 8 bulann berjalan usahanya
