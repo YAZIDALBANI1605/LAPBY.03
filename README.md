@@ -139,5 +139,92 @@ print(f"Total laba adalah: {total_laba}")
 ````
 dan memproses akan menghitung semua hasil data yang di kumpulkan
 
+## latihan 3
+
+Latihan 2: latihan2.py
+Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal
+awal 100 juta, pada bulan pertama dan kedua belum mendapatkan laba. pada bulan ketiga
+baru mulai mendapatkan laba sebesar 1% dan pada bulan ke 5, pendapatan meningkat 5%,
+selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba
+menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.
+
+```python
+saldo = 1000000
+
+while True:
+    print(f"Saldo saat ini: Rp {saldo}")
+    print("1. Tarik Uang")
+    print("2. Keluar")
+    pilihan = input("Pilih menu : ")
+
+    if pilihan == '1':
+        jumlah_penarikan = int(input("Masukkan jumlah penarikan: "))
+        if jumlah_penarikan <= saldo:
+            saldo -= jumlah_penarikan
+            print("Penarikan berhasil!")
+        else:
+            print("Saldo tidak mencukupi!")
+    elif pilihan == '2':
+        print("Terima kasih telah menggunakan ATM!")
+        break
+    else:
+        print("Pilihan tidak valid!")
+
+    print()  # Menambahkan baris kosong untuk pemisah antar transaksi
+
+````
+## membuat program ATM sederhana 
+
+```python
+saldo = 1000000
+
+````
+dengan memasukan variable saldo untuk menentukan jumlah saldo tersebut 
+
+```python
+while True:
+    print(f"Saldo saat ini: Rp {saldo}")
+    print("1. Tarik Uang")
+    print("2. Keluar")
+    pilihan = input("Pilih menu : ")
+
+````
+kode ini menggunakan while yaitu perulangan jika salah menginputkan atau sudah selesai menginputkan,program akan terus berlanjut
+
+```python
+if pilihan == '1':
+        jumlah_penarikan = int(input("Masukkan jumlah penarikan: "))
+        if jumlah_penarikan <= saldo:
+            saldo -= jumlah_penarikan
+            print("Penarikan berhasil!")
+        else:
+            print("Saldo tidak mencukupi!")
+
+````
+Menggunakan sruktur Kondisi if else, yang dimana jika memilih angka 1, akan memasukan menu Tarik uang, yang dimana program tersebut akan menjalani
+
+jika memilih angka 1, jumlah yang ingin di tarik lebih kecil dari saldo maka (salso -= jumlah penarikan) yang artinya jumlah saldo akan di kurangi dengan inpitan yang dimasukan, dan akan mencetak "Penarikan berhasil"
+
+Jika inputan penarikan melebihi saldo akan mencetak "Saldo tidak mencukupi"
+
+```python
+elif pilihan == '2':
+        print("Terima kasih telah menggunakan ATM!")
+        break
+    else:
+        print("Pilihan tidak valid!")
+
+    print()  # Menambahkan baris kosong untuk pemisah antar transaksi
+
+Dan Jika memilih angka 2, maka yang di pilih Output Keluar, yang mencetak "Terima kasih telah menggunakan ATM!", dan akan memproses ke fungsi `break()` yang berfungsi untuk menghentikan Perulangan atau `while` tersebut
+
+jika tidak memilih selain 1 atau 2, akan mencetak "Pilihan tidak valid!", dan fungsi `print()` Untuk Menambahkan baris kosong untuk pemisah antar transaksi
+
+hasil program tersebut
+
+```python
+![Screenshot 2024-11-01 221105](https://github.com/user-attachments/assets/94843833-c2fa-4ff4-b6ef-46707c1d5445)
+
+````
 
 
