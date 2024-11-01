@@ -220,9 +220,8 @@ Dan Jika memilih angka 2, maka yang di pilih Output Keluar, yang mencetak "Terim
 
 jika tidak memilih selain 1 atau 2, akan mencetak "Pilihan tidak valid!", dan fungsi `print()` Untuk Menambahkan baris kosong untuk pemisah antar transaksi
 
-
 hasil program tersebut
 
-![Screenshot 2024-11-01 221105](https://github.com/user-attachments/assets/51c61b4c-487a-4297-b566-21c13b6e31b0)
 
+![Screenshot 2024-11-01 221503](https://github.com/user-attachments/assets/38e528ab-f62c-4442-b51f-b67bab5abf8d)
 
