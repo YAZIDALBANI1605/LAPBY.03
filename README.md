@@ -55,4 +55,6 @@ i+= 1 yaitu akan menambahkan menjadi 2,karena diprogram itu index 1=0,jika 0 < N
 hasil program tersebut
 
 ![Screenshot 2024-11-01 213958](https://github.com/user-attachments/assets/d687af3a-cf59-4dc3-b65a-899b354c549e)
+<img width="271" alt="image" src="https://github.com/user-attachments/assets/9139211f-75ca-4afb-8088-5a9167e17b7b">
+
 
