@@ -37,3 +37,22 @@ kode program ini untuk memanggil fungsi `random()` yang terletak pada library py
 N = int(input("Masukkan nilai N: "))
 ````
 memasukan inputan N 
+
+```python
+i = 1
+while i <= N:
+    r = random()
+    print(f"data ke: {i} => {r}")
+    i += 1
+````
+kode ini menggunakan perulangan dengan fungsi `while` yang dimana memprogramkan variable i lebih dari N(i=1),dan akan proses ke fungsi random() yang dibungkus oleh variable (r) ,cetak "data {i} yang dimana (i) itu (1),=> ke variable (r) yaitu `random()`
+
+```python
+i += 1
+````
+i+= 1 yaitu akan menambahkan menjadi 2,karena diprogram itu index 1=0,jika 0 < N maka output yang keluar tanpa batas.
+
+hasil program tersebut
+
+![Screenshot 2024-11-01 213958](https://github.com/user-attachments/assets/d687af3a-cf59-4dc3-b65a-899b354c549e)
+
